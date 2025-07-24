@@ -27,7 +27,7 @@
 </table>
 
 # 🕒개발 기간
-**2025-04-30 ~ 2025-07-04 총66일**
+**2025-04-30 ~ 2025-07-04 총 66일**
 
 <img src="https://github.com/pcs1231/Project/blob/main/images/projectSchedule.png" >
 
@@ -78,7 +78,7 @@
 
 # 💡주요 기능
 - **사용자** <br/>
-  
+
   <table>
     <caption align="center"><strong>1. 카카오페이 간편 결제</strong></caption>
     <tr>
@@ -109,7 +109,7 @@
         <div><strong>SVG 파일</strong>을 활용하여 <strong>실제 공연장과 비슷한 UI</strong> 제공함으로 <strong>선명하고 직관적인</strong> 사용자 인터페이스와 <strong>간편한 결제 시스템</strong>을 제공하여 <strong>편리한 예매 경험</strong>을 선사하기 위함을 중점으로 두었습니다.</div><br/>
         <ul>
           <li><strong>콘서트 조회</strong>: 온/오프라인 콘서트 목록을 조회할 수 있으며 <strong>종료된 콘서트는 자동으로 비활성화</strong> 되어 선택이 불가능하며, <strong>유효한 콘서트만 선택이 가능하도록 구분</strong>됩니다.</li>
-          <li><strong>콘서트 예매</strong>: <strong>원하는 좌석을 선택</strong>할 수 있으며 <strong>이미 선택완료된 좌석은 중복 선택이 불가하도록 설계</strong>하여 예매 충돌을 방지합니다.(SweetAlert API 활용) <strong>간편한 결제</strong>를 위해 <strong>카카오페이 API를 연동</strong>하여 콘서트 결제하고 <strong>즉시 예매를 완료</strong>합니다.</li>          
+          <li><strong>콘서트 예매</strong>: <strong>원하는 좌석을 선택</strong>할 수 있으며 <strong>이미 선택완료된 좌석은 중복 선택이 불가하도록 설계</strong>하여 예매 충돌을 방지합니다.(SweetAlert API 활용) <strong>간편한 결제</strong>를 위해 <strong>카카오페이 API를 연동</strong>하여 콘서트 결제하고 <strong>즉시 예매를 완료</strong>합니다.</li>
           <li><strong>콘서트 취소</strong>: 마이페이지를 통해 <strong>구매했던 콘서트의 결제를 간편하게 취소</strong>할 수 있습니다. <strong>취소 즉시 관련 내역이 업데이트</strong>됩니다.</li>
         </ul>
       </td>
@@ -127,7 +127,7 @@
         <div>사용자에게 <strong>실시간</strong>으로 <strong>개인화된 중요 정보</strong>를 전달합니다. 특정 이벤트 발생 시 사용자에게 <strong>즉시 알림을 발송</strong>하고, 각 사용자의 선호에 따라 알림 수신 여부를 설정함으로 사용자가 <strong>서비스 이용 편의성</strong>에 중점을 두었습니다.</div><br/>
         <ul>
           <li><strong>알림 전송</strong> : 알림에 대한 정보를 <strong>정확하게 저장</strong>되고 알림이 동시에 발생해도 <strong>누락되거나 중복되지 않고 안정적으로 전달</strong>됩니다.(@Transactional 활용) 또한, <strong>웹소켓(WebSocket) 기술</strong>를 활용하여 사용자에게 <strong>실시간으로 알림을 전송</strong>됩니다.</li>
-          <li><strong>개인 맞춤 알림</strong>: 콘서트 티켓 오픈, 라이브 방송 시작, 새 게시글/댓글/좋아요, DM 등 <strong>다양한 이벤트들을 실시간으로 감지</strong>하여 알림을 보냅니다. <strong>마이페이지를 통해 불필요한 알림은 끄고 원하는 알림만 받을 수 있습니다.</strong></li>          
+          <li><strong>개인 맞춤 알림</strong>: 콘서트 티켓 오픈, 라이브 방송 시작, 새 게시글/댓글/좋아요, DM 등 <strong>다양한 이벤트들을 실시간으로 감지</strong>하여 알림을 보냅니다. <strong>마이페이지를 통해 불필요한 알림은 끄고 원하는 알림만 받을 수 있습니다.</strong></li>
           <li><strong>알림 내역</strong>: 마이페이지 또는 상단 알림 아이콘을 통해 <strong>알림 내역을 조회</strong>할 수 있으며 <strong>읽음 표시 또는 삭제</strong>를 할 수 있습니다. <strong>알림 클릭 시 알림에 해당하는 페이지로 이동</strong>합니다.</li>
         </ul>
       </td>
