@@ -1,4 +1,4 @@
-# Project - DDTOWN
+# Project - DDTOWN Ent.
 <img src="https://github.com/pcs1231/Project/blob/main/images/mainPage.png">
 
 # 📖프로젝트 소개
